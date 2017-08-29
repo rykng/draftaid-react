@@ -4,7 +4,10 @@ It uses ranking and tiering data [Boris Chen](http://www.borischen.co/) and make
 
 it was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+There is an included script, run.sh, that can be used to install, build, and locally deploy this application.
+
 ## Commands
+- Install: `npm install`
 - Run: `npm start`
 - Build: `npm run build`
 - Test: `npm test`
