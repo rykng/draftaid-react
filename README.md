@@ -6,6 +6,8 @@ it was bootstrapped with [Create React App](https://github.com/facebookincubator
 
 There is an included script, run.sh, that can be used to install, build, and locally deploy this application.
 
+After launching, the web-app will be visible at: http://localhost:3000/
+
 ## Commands
 - Install: `npm install`
 - Run: `npm start`
