@@ -113,6 +113,12 @@ class DraftBoard extends Component {
 
       return (
         <div className='row'>
+
+          <UndraftedPositions
+            players={ this.state.players }
+            draft={(p) => this.draft(p)}
+          />
+
           <UndraftedAll
             players={ this.state.filteredPlayers }
             draft={ (p) => this.draft(p) }
@@ -120,11 +126,6 @@ class DraftBoard extends Component {
             search={ (e) => this.searchPlayers(e.target.value) }
             format={ this.state.format }
             query={ this.state.query }
-          />
-
-          <UndraftedPositions
-            players={ this.state.players }
-            draft={(p) => this.draft(p)}
           />
 
           <Drafted

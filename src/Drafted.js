@@ -20,11 +20,12 @@ function Drafted(props) {
             <i className='fa fa-backward'></i> Undo
           </button>
 
-          <button
+          { // REMOVE THE RESET BUTTON FOR DRAFT DAY
+            /*<button
             className='pull-right btn btn-sm btn-warning btn-responsive'
             onClick={()=>props.reset()}>
             <i className='fa fa-eject'></i> Reset
-          </button>
+          </button>*/}
         </div>
       </div>
 

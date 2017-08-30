@@ -1,20 +1,24 @@
-This project is a direct port of [Fantasy Football Rankings](https://github.com/jayjzheng/ff_rankings).
+# Draft Aid (Fantasy Football)
 
-It uses ranking and tiering data [Boris Chen](http://www.borischen.co/) and makes an interactive draftboard to help you during your fantasy football draft.
+This repository contains a modified version of Jay Zheng's draftaid-react project, which can be found at: [https://github.com/jayjzheng/draftaid-react]()
 
-it was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+## Installation and usage
+I have included a script that can be used for easy local deployment. In the top level of this project, use the command `./run.sh` from the terminal to have the project install, build, and run all at once. When built, the application will be served at [http://localhost:3000]().
 
-There is an included script, run.sh, that can be used to install, build, and locally deploy this application.
+If you are interested in external web hosting, please see Jay Zheng's original repos for more details. This is a react-based project, so the commands required to run this application are:
 
-After launching, the web-app will be visible at: http://localhost:3000/
-
-## Commands
 - Install: `npm install`
-- Run: `npm start`
 - Build: `npm run build`
-- Test: `npm test`
+- Run: `npm start`
 
-## TODOs
-- Local Storage
-- Tests
-- Better CSS
+Note that you will need to have npm installed and configured on your machine.
+
+## Differences from the original application
+
+Jay Zheng's original application is great out of the box. However, I wanted to tweak a few things before using it for my own fantasy draft purposes.
+
+## Kudos
+
+Thank you to [Jay Zheng](https://github.com/jayjzheng) for creating this application, and elevating my draft results for (hopefully) many upcoming Fantasy Football seasons to come.
+
+

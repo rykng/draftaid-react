@@ -54,6 +54,29 @@ function UndraftedPositions(props) {
           position='TE'
         />
       </div>
+
+      <div className='col-sm-6'>
+        <span className="col-sm-12 position-title">Kickers</span>
+        <Undrafted
+          fields={fields}
+          players={props.players}
+          draft={(p) => props.draft(p)}
+          size={15}
+          position='K'
+        />
+      </div>
+
+      <div className='col-sm-6'>
+        <span className="col-sm-12 position-title">Team Defenses</span>
+        <Undrafted
+          fields={fields}
+          players={props.players}
+          draft={(p) => props.draft(p)}
+          size={15}
+          position='DST'
+        />
+      </div>
+
     </div>
   )
 }
