@@ -1,9 +1,9 @@
 # Draft Aid (Fantasy Football)
 
-This repository contains a modified version of Jay Zheng's draftaid-react project, which can be found at: [https://github.com/jayjzheng/draftaid-react]()
+This repository contains a modified version of Jay Zheng's draftaid-react project, which can be found at: [https://github.com/jayjzheng/draftaid-react](https://github.com/jayjzheng/draftaid-react)
 
 ## Installation and usage
-I have included a script that can be used for easy local deployment. In the top level of this project, use the command `./run.sh` from the terminal to have the project install, build, and run all at once. When built, the application will be served at [http://localhost:3000]().
+I have included a script that can be used for easy local deployment. In the top level of this project, use the command `./run.sh` from the terminal to have the project install, build, and run all at once. When built, the application will be served at [http://localhost:3000](http://localhost:3000).
 
 If you are interested in external web hosting, please see Jay Zheng's original repos for more details. This is a react-based project, so the commands required to run this application are:
 
