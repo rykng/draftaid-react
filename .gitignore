@@ -3,6 +3,8 @@
 /data/rankings_ppr.json
 /data/rankings_standard.json
 
+/src/data/*
+
 # dependencies
 /node_modules
 

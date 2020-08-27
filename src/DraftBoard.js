@@ -25,8 +25,8 @@ class DraftBoard extends Component {
 
     // using local .json file
     fetchPlayers(format) {
-      // create function to read from .json file
-      var localJson = require('../data/rankings_standard.json');
+      // create function to read from .json file, this file is created from ../data/*.py file
+      var localJson = require('./data/rankings_halfppr.json');
       this.setState({
         players: localJson.rankings,
         filteredPlayers: localJson.rankings,
